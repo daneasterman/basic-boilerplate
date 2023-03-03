@@ -7,8 +7,7 @@ class Config:
 class ProductionConfig(Config):
 	pass
 
-class DevelopmentConfig(Config):
-	FLASK_DEBUG = True
+class DevelopmentConfig(Config):	
 	DEBUG = True
 	DEVELOPMENT = True
 	TEMPLATES_AUTO_RELOAD = True
